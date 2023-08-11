@@ -8,7 +8,11 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+    "features": {
+        "ghcr.io/devcontainers/feature-starter/hello:1": {
+            "greeting": "おはよーっす"
+        }
+    },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
