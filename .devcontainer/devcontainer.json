@@ -1,0 +1,9 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        // https://containers.dev/implementors/features-distribution/#addendum-locally-referenced
+        "./color": {
+            "favorite": "purple"
+        }
+    }
+}
